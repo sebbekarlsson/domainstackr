@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.domainstackr-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .domainstackr-searcharea {
+        width: 40%;
+        min-height: 360px;
+        outline-color: lightgray;
+        outline-style: solid;
+        outline-width: 1px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        input[type='submit'] {
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            border: none;
+            outline-width: 1px;
+            outline-style: solid;
+            outline-color: lightgray;
+            display: inline-block;
+            min-width: 128px;
+            height: 32px;
+            line-height: 32px;
+        }
+
+        input[type='text'] {
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            border: none;
+            outline-width: 1px;
+            outline-style: solid;
+            outline-color: lightgray;
+            display: inline-block;
+            min-width: 128px;
+            height: 32px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 32px; 
+        }
+
+        form {
+            height: 200px;
+        }
+    }
+}

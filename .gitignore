@@ -1,0 +1,8 @@
+*.swp
+*.pyc
+*.swa
+*.swm
+*.swo
+*cache*
+*egg*
+*build*

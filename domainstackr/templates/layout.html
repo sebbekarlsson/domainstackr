@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' type='text/css' href='{{ url_for("static", filename="css/style.css") }}'>
+        <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class='domainstackr-content'>
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+</html>
